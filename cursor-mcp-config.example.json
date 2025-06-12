@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "trello": {
+      "command": "node",
+      "args": ["path/to/your/mcp-trello-tracking/build/index.js"],
+      "env": {
+        "TRELLO_API_KEY": "tu_api_key",
+        "TRELLO_TOKEN": "tu_token",
+        "TRELLO_BOARD_ID": "tu_board_id"
+      }
+    }
+  }
+} 
